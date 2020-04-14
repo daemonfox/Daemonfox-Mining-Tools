@@ -12,7 +12,7 @@ CHANGE LOG:
 	- Can import your privkey
 	- Can display your imported balance
 	- Preconfigured option to VOTE FOR DAEMONFOX with any amount owned
-	- MEthod to vote for any NN address included
+	- Method to vote for any NN address included
 
 ALL FILES ARE IN PLAIN TEXT AND CAN BE COPY PASTED INSTEAD OF DOWNLOADED. COMPLETE TRANSPARAENCY, USES 100% WINDOWS CMD AND KOMODO BINARIES.
 
