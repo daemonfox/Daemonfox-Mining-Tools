@@ -3,16 +3,16 @@ CMDlet for KMD based coins.
 
 CHANGE LOG:
 
-1. Added new batch file to launch VOTE2020 chain in cmd window using Verus Desktop daemon
-	A. Launch VOTE2020 with the press of a button and your existing VerusDesktop wallet or AGAMA!!!
-	B. Can be launched manually or fromt he CMDlet
-2. Added a new CMDlet to interact with VOTE2020 without a grpahic UI.
-	A. Launches VOTE2020 in a new cmd window
-	B. Can display wallet status
-	C. Can import your privkey
-	D. Can display your imported balance
-	E. Preconfigured option to VOTE FOR DAEMONFOX with any amount owned
-	F. MEthod to vote for any NN address included
+- Added new batch file to launch VOTE2020 chain in cmd window using Verus Desktop daemon
+	- Launch VOTE2020 with the press of a button and your existing VerusDesktop wallet or AGAMA!!!
+	- Can be launched manually or fromt he CMDlet
+- Added a new CMDlet to interact with VOTE2020 without a grpahic UI.
+	- Launches VOTE2020 in a new cmd window
+	- Can display wallet status
+	- Can import your privkey
+	- Can display your imported balance
+	- Preconfigured option to VOTE FOR DAEMONFOX with any amount owned
+	- MEthod to vote for any NN address included
 
 ALL FILES ARE IN PLAIN TEXT AND CAN BE COPY PASTED INSTEAD OF DOWNLOADED. COMPLETE TRANSPARAENCY, USES 100% WINDOWS CMD AND KOMODO BINARIES.
 

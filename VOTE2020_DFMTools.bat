@@ -9,7 +9,7 @@ ECHO           Daemonfox Mining Toolbox
 ECHO VOTE FOR DAEMONFOX RDAEmonF9avm7xau2pYWf3UamgHNXrkzpt
 ECHO. 
 ECHO .....................................................
-ECHO PRESS 1-9 to select your task, or q to EXIT.
+ECHO PRESS 1-6 to select your task, or q to EXIT.
 ECHO .....................................................
 ECHO.
 ECHO 1 - START VOTE2020
