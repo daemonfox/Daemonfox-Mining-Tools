@@ -1,6 +1,8 @@
 # Daemonfox-Mining-Tools
 CMDlet for KMD based coins.
 
+Youtube demo with Verus Desktop https://youtu.be/ZKTOelG97j0
+
 CHANGE LOG:
 
 - Added new batch file to launch VOTE2020 chain in cmd window using Verus Desktop daemon
