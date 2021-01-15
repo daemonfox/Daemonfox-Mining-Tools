@@ -7,8 +7,8 @@ CHANGE LOG:
 
 - Removed LABS related files now that it is in Verus Desktop
 - Added CLC version with additional calls
-	Bat file for launch command to be added later
-	New calls to mine, create keys and send funds
+	- Bat file for launch command to be added later
+	- New calls to mine, create keys and send funds
 - Added new batch file to launch VOTE2020 chain in cmd window using Verus Desktop daemon
 	- Launch VOTE2020 with the press of a button and your existing VerusDesktop wallet or AGAMA!!!
 	- Can be launched manually or fromt he CMDlet
