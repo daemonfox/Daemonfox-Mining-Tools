@@ -5,13 +5,15 @@ Youtube demo with Verus Desktop https://youtu.be/ZKTOelG97j0
 
 CHANGE LOG:
 
+- Added VOTE2021 files
+- Removed VOTE2020 related files
 - Removed LABS related files now that it is in Verus Desktop
 - Added CLC version with additional calls
 	- Bat file for launch command to be added later
 	- New calls to mine, create keys and send funds
 - Added new batch file to launch VOTE2020 chain in cmd window using Verus Desktop daemon
-	- Launch VOTE2020 with the press of a button and your existing VerusDesktop wallet or AGAMA!!!
-	- Can be launched manually or fromt he CMDlet
+	- Launch VOTE2020 with the press of a button and your existing VerusDesktop wallet or Komodo binaries!!!
+	- Can be launched manually or from the CMDlet
 - Added a new CMDlet to interact with VOTE2020 without a grpahic UI.
 	- Launches VOTE2020 in a new cmd window
 	- Can display wallet status
