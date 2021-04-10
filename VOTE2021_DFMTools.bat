@@ -12,7 +12,7 @@ ECHO .....................................................
 ECHO PRESS 1-6 to select your task, or q to EXIT.
 ECHO .....................................................
 ECHO.
-ECHO 1 - START VOTE2020
+ECHO 1 - START VOTE2021
 ECHO 2 - CHECK GETINFO
 ECHO 3 - IMPORTPRIVKEY
 ECHO 4 - CHECK GETWALLETINFO
@@ -22,7 +22,7 @@ ECHO q - EXIT
 ECHO.
 color 9
 SET /P M=Type 1, 2, 3, 4, 5, 6 or q then press ENTER:
-IF %M%==1 GOTO VOTE2020
+IF %M%==1 GOTO VOTE2021
 IF %M%==2 GOTO GETINFO
 IF %M%==3 GOTO IMPORTPRIVKEY
 IF %M%==4 GOTO GETWALLETINFO
@@ -30,14 +30,13 @@ IF %M%==5 GOTO DAEMONFOX
 IF %M%==6 GOTO NN
 IF %M%==q GOTO EOF
 
-:VOTE2020
+:VOTE2021
 @call :GET_CURRENT_DIR
 @cd %THIS_DIR%
 CLS
-cd resources\app\assets\bin\win64\komodod
-start VOTE2020.bat
+start VOTE2021.bat
 ECHO.
-ECHO VOTE2020 STARTED VOTE FOR DAEMONFOX RDAEmonF9avm7xau2pYWf3UamgHNXrkzpt
+ECHO VOTE2021 STARTED VOTE FOR DAEMONFOX RDAEmonF9avm7xau2pYWf3UamgHNXrkzpt
 TIMEOUT /T 20
 GOTO MENU
 
@@ -45,8 +44,7 @@ GOTO MENU
 @call :GET_CURRENT_DIR
 @cd %THIS_DIR%
 CLS
-cd resources\app\assets\bin\win64\komodod
-komodo-cli -ac_name=VOTE2020 getinfo 
+komodo-cli -ac_name=VOTE2021 getinfo 
 ECHO.
 ECHO VOTE FOR DAEMONFOX RDAEmonF9avm7xau2pYWf3UamgHNXrkzpt
 TIMEOUT /T 20
@@ -56,9 +54,8 @@ GOTO MENU
 @call :GET_CURRENT_DIR
 @cd %THIS_DIR%
 CLS
-cd resources\app\assets\bin\win64\komodod
 set /p privkey=Enter PrivKey: 
-komodo-cli -ac_name=VOTE2020 importprivkey %privkey%
+komodo-cli -ac_name=VOTE2021 importprivkey %privkey%
 ECHO.
 ECHO Key imported. VOTE FOR DAEMONFOX RDAEmonF9avm7xau2pYWf3UamgHNXrkzpt
 TIMEOUT /T 20
@@ -68,8 +65,7 @@ GOTO MENU
 @call :GET_CURRENT_DIR
 @cd %THIS_DIR%
 CLS
-cd resources\app\assets\bin\win64\komodod
-komodo-cli -ac_name=VOTE2020 getwalletinfo
+komodo-cli -ac_name=VOTE2021 getwalletinfo
 ECHO.
 ECHO VOTE FOR DAEMONFOX RDAEmonF9avm7xau2pYWf3UamgHNXrkzpt
 TIMEOUT /T 20
@@ -79,9 +75,8 @@ GOTO MENU
 @call :GET_CURRENT_DIR
 @cd %THIS_DIR%
 CLS
-cd resources\app\assets\bin\win64\komodod
-set /p amt=Enter VOTE2020 amount to send: 
-komodo-cli -ac_name=VOTE2020 sendtoaddress RDAEmonF9avm7xau2pYWf3UamgHNXrkzpt %amt%
+set /p amt=Enter VOTE2021 amount to send: 
+komodo-cli -ac_name=VOTE2021 sendtoaddress RDAEmonF9avm7xau2pYWf3UamgHNXrkzpt %amt%
 ECHO.
 ECHO THANK YOU!! THANK YOU!! THANK YOU!!
 TIMEOUT /T 20
@@ -91,10 +86,9 @@ GOTO MENU
 @call :GET_CURRENT_DIR
 @cd %THIS_DIR%
 CLS
-cd resources\app\assets\bin\win64\komodod
 set /p addr=Enter NN Address: 
-set /p amt=Enter VOTE2020 amount to send: 
-komodo-cli -ac_name=VOTE2020 sendtoaddress %addr% %amt%
+set /p amt=Enter VOTE2021 amount to send: 
+komodo-cli -ac_name=VOTE2021 sendtoaddress %addr% %amt%
 ECHO.
 ECHO VOTE FOR DAEMONFOX RDAEmonF9avm7xau2pYWf3UamgHNXrkzpt
 TIMEOUT /T 15

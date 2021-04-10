@@ -1,1 +1,0 @@
-C:\Program Files\Verus-Desktop\resources\app\assets\bin\win64\komodod\komodod.exe -ac_public=1 -ac_name=VOTE2020 -ac_supply=123651638 -addnode=95.213.238.98

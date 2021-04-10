@@ -1,0 +1,1 @@
+komodod.exe -ac_public=1 -ac_name=VOTE2021 -ac_supply=129848152 -addnode=77.74.197.115
